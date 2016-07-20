@@ -1,2 +1,0 @@
-# abaldock.github.io
-persona
