@@ -1,0 +1,59 @@
+body{
+  width:100%;
+  height:100%;
+  margin: 0 auto
+}
+
+@font-face {
+	font-family: sintony;
+	src: url('Sintony-Regular.ttf');
+}
+
+li.nav_button a{
+    display:inline-block;
+    padding-left:20px;
+    padding-right:20px;
+    height:100%;
+}
+#nav{
+  width:100%;
+  height:60px;
+  margin: 0 auto;
+}
+
+#nav_wrapper{
+  background-color:black;
+  width:100%;
+  height:100%;
+
+}
+
+ul#nav_list{
+  list-style:none;
+  margin:0 auto;
+  text-align:center;
+  padding:0;
+  height:100%;
+}
+li.nav_button{
+  display:inline;
+  line-height:55px;
+  text-align:center;
+}
+.nav_button a:link{
+  color:white;
+  text-decoration:none;
+  font-family: sintony;
+  font-size:16px;
+}
+.nav_button a:visited{
+  color:white;
+}
+.nav_button a:hover{
+  color: #cccccc;
+  transition: all 0.2s ease 0s;
+}
+.nav_button a:active{
+  background-color:#404040;
+  transition: all 0.3s ease 0s;
+}
