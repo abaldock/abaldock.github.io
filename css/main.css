@@ -58,7 +58,7 @@ li.nav_button{
   color:white;
 }
 .nav_button a:hover{
-  color: #8c8c8c;
+  background-color: #404040;
   transition: all 0.2s ease 0s;
 }
 .nav_button a:active{
@@ -110,7 +110,7 @@ div #img_box{
 
 #blog_panel{
   background-color:white;
-  height:600px;
+  height:750px;
   width:70%;
   margin: 0 auto;
   margin-bottom: 0px;
@@ -124,7 +124,7 @@ div #img_box{
 .post_panel{
   width:95%;
   margin:0 auto;
-  height:200px;
+  height:250px;
   background-color:white;
   list-style:none;
 
@@ -139,13 +139,26 @@ div #img_box{
 #page_p{
   display:inline-block;
 }
-.page_button a:visited, .page_button a:link, .page_button a:active{
+.page_link_button a:visited, .page_link_button a:link, .page_link_button a:active{
   color:black;
   text-decoration:none;
 }
 
 .pagination a:hover{
   cursor:pointer;
+}
+.page_link_button{
+  position:relative;
+  display:inline-block;
+  text-align:center;
+  background-color:white;
+  border-radius:6px;
+  position: relative;
+  top: 25%;
+  font-family: sintony;
+  height:30px;
+  padding:9px;
+  width:100px;
 }
 .page_button{
   position:relative;
@@ -156,12 +169,13 @@ div #img_box{
   position: relative;
   top: 25%;
   font-family: sintony;
+  height:30px;
   padding:9px;
   width:100px;
 }
-.page_button a{
-
-
+.page_link_button:hover{
+  background-color: #8c8c8c;
+  transition: all 0.2s ease 0s;
 }
 #next_prev{
   width:100%;
