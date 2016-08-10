@@ -59,7 +59,7 @@ li.nav_button{
 }
 .nav_button a:hover{
   background-color: #404040;
-  transition: all 0.2s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 .nav_button a:active{
   background-color:#404040;
