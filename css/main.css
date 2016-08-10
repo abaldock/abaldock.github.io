@@ -6,9 +6,12 @@ body{
   background-color:black;
 }
 
+
+
+
 @font-face {
 	font-family: sintony;
-	src: url('Sintony-Regular.ttf');
+	src: url('../fonts/Sintony-Regular.ttf');
 }
 
 li.nav_button a{
@@ -21,6 +24,9 @@ li.nav_button a{
   width:100%;
   height:60px;
   margin: 0 auto;
+  border-bottom-width:3px;
+  border-bottom-color:white;
+  border-bottom-style:solid;
 }
 
 #nav_wrapper{
@@ -68,16 +74,6 @@ li.nav_button{
   text-align:center;
   position:relative;
   box-shadow: inset 0px 0px 10px #000;
-
-
-}
-#box_shadow{
-  height:100%;
-  width:100%;
-  box-shadow: 0 0 20px 20px black;
-  /*-webkit-box-shadow: inset 0px 0px 199px 0px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 0px 199px 0px rgba(0,0,0,1);
-  box-shadow: inset 0px 0px 199px 0px rgba(0,0,0,1);*/
 }
 
 div #img_box{
@@ -103,9 +99,72 @@ div #img_box{
 #footer{
   width:100%;
   height:60px;
-  background-color:white;
-  bottom:0;
+  background-color:black;
+  border-style:solid;
+  border-top-color:white;
+  border-top-width:2px;
   margin: 0 auto;
   position:absolute;
 
+}
+
+#blog_panel{
+  background-color:white;
+  height:600px;
+  width:70%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-top:40px;
+  border-radius:3px;
+
+}
+.post_title{
+  margin:0;
+}
+.post_panel{
+  width:95%;
+  margin:0 auto;
+  height:200px;
+  background-color:white;
+  list-style:none;
+
+}
+.pagination{
+  text-align:center;
+  font-size:22px;
+  color:black;
+  font-family: sintony;
+  height:60px;
+}
+#page_p{
+  display:inline-block;
+}
+.page_button a:visited, .page_button a:link, .page_button a:active{
+  color:black;
+  text-decoration:none;
+}
+
+.pagination a:hover{
+  cursor:pointer;
+}
+.page_button{
+  position:relative;
+  display:inline-block;
+  text-align:center;
+  background-color:white;
+  border-radius:6px;
+  position: relative;
+  top: 25%;
+  font-family: sintony;
+  padding:9px;
+  width:100px;
+}
+.page_button a{
+
+
+}
+#next_prev{
+  width:100%;
+  height:80px;
+  background-color:black;
 }
