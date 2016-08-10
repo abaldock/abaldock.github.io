@@ -1,0 +1,170 @@
+
+body{
+  width:100%;
+  height:100%;
+  margin: 0 auto;
+  background-color:black;
+}
+
+
+
+
+@font-face {
+	font-family: sintony;
+	src: url('../fonts/Sintony-Regular.ttf');
+}
+
+li.nav_button a{
+    display:inline-block;
+    padding-left:20px;
+    padding-right:20px;
+    height:100%;
+}
+#nav{
+  width:100%;
+  height:60px;
+  margin: 0 auto;
+  border-bottom-width:3px;
+  border-bottom-color:white;
+  border-bottom-style:solid;
+}
+
+#nav_wrapper{
+  background-color:black;
+  width:100%;
+  height:100%;
+
+}
+
+ul#nav_list{
+  list-style:none;
+  margin:0 auto;
+  text-align:center;
+  padding:0;
+  height:100%;
+}
+li.nav_button{
+  display:inline;
+  line-height:55px;
+  text-align:center;
+}
+.nav_button a:link{
+  color:white;
+  text-decoration:none;
+  font-family: sintony;
+  font-size:16px;
+}
+.nav_button a:visited{
+  color:white;
+}
+.nav_button a:hover{
+  color: #8c8c8c;
+  transition: all 0.2s ease 0s;
+}
+.nav_button a:active{
+  background-color:#404040;
+  transition: all 0.3s ease 0s;
+}
+
+#header_img{
+  height:290px;
+  background-image: url(../img/shoes.jpg);
+  background-size: 1272.6px 859.6px;
+  background-position: -40px -568px;
+  text-align:center;
+  position:relative;
+  box-shadow: inset 0px 0px 10px #000;
+}
+
+div #img_box{
+  border-width:10px;
+  border-color:white;
+  width:450px;
+  margin-top:50px;
+  margin-bottom:50px;
+  line-height:120px;
+  height:180px;
+  /*margin:0 auto;*/
+  display:inline-block;
+  border-width:5px;
+  border-color:white;
+  border-style:solid;
+}
+#img_box h1{
+  font-size:40px;
+  font-family:sintony;
+  color:white;
+}
+
+#footer{
+  width:100%;
+  height:60px;
+  background-color:black;
+  border-style:solid;
+  border-top-color:white;
+  border-top-width:2px;
+  margin: 0 auto;
+  position:absolute;
+
+}
+
+#blog_panel{
+  background-color:white;
+  height:600px;
+  width:70%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-top:40px;
+  border-radius:3px;
+
+}
+.post_title{
+  margin:0;
+}
+.post_panel{
+  width:95%;
+  margin:0 auto;
+  height:200px;
+  background-color:white;
+  list-style:none;
+
+}
+.pagination{
+  text-align:center;
+  font-size:22px;
+  color:black;
+  font-family: sintony;
+  height:60px;
+}
+#page_p{
+  display:inline-block;
+}
+.page_button a:visited, .page_button a:link, .page_button a:active{
+  color:black;
+  text-decoration:none;
+}
+
+.pagination a:hover{
+  cursor:pointer;
+}
+.page_button{
+  position:relative;
+  display:inline-block;
+  text-align:center;
+  background-color:white;
+  border-radius:6px;
+  position: relative;
+  top: 25%;
+  font-family: sintony;
+  padding:9px;
+  width:100px;
+}
+.page_button a{
+
+
+}
+#next_prev{
+  width:100%;
+  height:80px;
+  background-color:black;
+}
