@@ -2,7 +2,7 @@
 <script>
   $(document).ready(function () {
     $('.soundcloud:gt(4)').hide().last().after(
-      $('<a />').attr('href','#').text('Show more').click(function(){
+      $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
         var a = this;
         $('.soundcloud:not(:visible):lt(5)').fadeIn(function(){
           if ($('.soundcloud:not(:visible)').length == 0) $(a).remove();
