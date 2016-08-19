@@ -182,3 +182,26 @@ div #img_box{
   height:80px;
   background-color:black;
 }
+
+#music_panel{
+  background-color:black;
+  height:750px;
+  width:80%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-top:40px;
+  border-radius:3px;
+}
+.soundcloud{
+  width:100%;
+  background-color:white;
+  margin:15px;
+  border-radius:10px;
+}
+.sc_wrapper{
+  width:97%;
+  margin:0 auto;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}

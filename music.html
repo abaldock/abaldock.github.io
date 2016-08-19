@@ -2,6 +2,13 @@
 layout: default
 ---
 
-<div id=music_panel>
+{% include sc_js.html %}
+
+<div id="music_panel">
+  {% for post in site.categories.music %}
+    <div class="soundcloud">
+      <div class="sc_wrapper">{{ post.link }}</div>
+    </div>
+  {% endfor %}
 
 </div>
