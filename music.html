@@ -8,7 +8,7 @@ layout: default
   {% for post in site.categories.music %}
     <div class="sc_wrapper">
       <div class="sc_stamps">
-        <p>{{ post.tag }} &nbsp; | &nbsp;{{ post.date | date: '%B %d, %Y' }}</p>
+        <p>{{ post.tag }} &nbsp; | &nbsp;<i>{{ post.date | date: '%B %d, %Y' }}</i></p>
       </div>
       <div class="soundcloud">
         <div class="sc_song_wrapper">{{ post.link }}</div>
