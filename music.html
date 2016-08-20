@@ -6,8 +6,14 @@ layout: default
 
 <div id="music_panel">
   {% for post in site.categories.music %}
-    <div class="soundcloud">
-      <div class="sc_wrapper">{{ post.link }}</div>
+    <div class="sc_wrapper">
+      <div class="sc_stamps">
+        <p>{{ post.tag }} &nbsp; | &nbsp;{{ post.date | date: '%B %d, %Y' }}</p>
+      </div>
+      <div class="soundcloud">
+        <div class="sc_song_wrapper">{{ post.link }}</div>
+      </div>
+      <hr id="music_hr">
     </div>
   {% endfor %}
 

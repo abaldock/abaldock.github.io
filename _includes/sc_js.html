@@ -1,11 +1,11 @@
 
 <script>
   $(document).ready(function () {
-    $('.soundcloud:gt(4)').hide().last().after(
+    $('.sc_wrapper:gt(4)').hide().last().after(
       $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
         var a = this;
-        $('.soundcloud:not(:visible):lt(5)').fadeIn(function(){
-          if ($('.soundcloud:not(:visible)').length == 0) $(a).remove();
+        $('.sc_wrapper:not(:visible):lt(5)').fadeIn(function(){
+          if ($('.sc_wrapper:not(:visible)').length == 0) $(a).remove();
         }); return false;
       })
     );
