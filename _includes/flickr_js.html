@@ -1,7 +1,7 @@
 
 <script>
   $(document).ready(function () {
-    $('.flickr:gt(4)').hide().last().after(
+    $('.flickr:gt(3)').hide().last().after(
       $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
         var a = this;
         $('.flickr:not(:visible):lt(5)').fadeIn(function(){
