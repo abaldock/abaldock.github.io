@@ -266,8 +266,8 @@ div #img_box{
 }
 .flickr{
   display:inline-block;
-  padding: 0 45px 0 47px;
-  margin: 47px 0 47px 0;
+  padding: 0 35px 0 35px;
+  margin: 27px 0 27px 0;
 
 }
 .flickr_wrapper{
@@ -277,4 +277,9 @@ div #img_box{
   border-width:2px;
   border-color:#333333;
   border-style:solid;
+}
+
+.photo_info{
+  color:white;
+  font-family: sintony;
 }

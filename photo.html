@@ -7,6 +7,7 @@ layout: default
   {% for post in site.categories.photos %}
       <div class="flickr">
         <div class="flickr_wrapper">{{ post.link }}</div>
+        <p class="photo_info">{{ post.title }} ︱ <b>{{ post.location }}</b></p>
       </div>
   {% endfor %}
 </div>

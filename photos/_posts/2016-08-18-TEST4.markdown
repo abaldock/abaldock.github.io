@@ -1,6 +1,0 @@
----
-title:  "Photo Test"
-date:   2016-07-20 00:12:25 -0400
-categories: photos
-link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/kW44ww" title="R1-03891-0003"><img src="https://c6.staticflickr.com/4/3816/20074121269_af731dfba2.jpg" width="500" height="338" alt="R1-03891-0003"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
----
