@@ -99,7 +99,7 @@ div #img_box{
 }
 #img_box h1{
   font-size:40px;
-  font-family:sintony;
+  font-family:sintony_bold;
   color:white;
 }
 
@@ -117,12 +117,13 @@ div #img_box{
 
 #blog_panel{
   background-color:white;
-  height:750px;
+  height:100%;
   width:70%;
   margin: 0 auto;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
   margin-top:40px;
   border-radius:3px;
+  /*text-align:center;*/
 
 }
 .post_title{
@@ -134,6 +135,9 @@ div #img_box{
   height:250px;
   background-color:white;
   list-style:none;
+
+  /*text-align:left !important;*/
+
 
 }
 .pagination{
@@ -258,7 +262,7 @@ div #img_box{
   border: 0;
   margin-top:45px;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.95), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(77, 77, 77, 0.95), rgba(0, 0, 0, 0));
 }
 .sc_wrapper{
   margin-top:35px;
@@ -288,4 +292,11 @@ div #img_box{
 .photo_info{
   color:white;
   font-family: sintony;
+}
+.page-content{
+
+  border-top-width:2px;
+  box-sizing: border-box;
+  border-top-color:white;
+  border-top-style:solid;
 }
