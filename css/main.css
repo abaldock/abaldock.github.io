@@ -13,6 +13,12 @@ body{
 	font-family: sintony;
 	src: url('../fonts/Sintony-Regular.ttf');
 }
+@font-face {
+	font-family: sintony_bold;
+	src: url('../fonts/Sintony-Bold.ttf');
+}
+
+
 
 li.nav_button a{
     display:inline-block;
