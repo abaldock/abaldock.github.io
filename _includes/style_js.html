@@ -1,5 +1,5 @@
 <script>
-  $(document).ready(function () {
+  $(".wrapper").load(function () {
     $('.post_panel:gt(2)').hide().last().after(
       $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
         var a = this;

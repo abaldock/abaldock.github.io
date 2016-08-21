@@ -1,6 +1,7 @@
 
 <script>
-  $(document).ready(function () {
+  $(".wrapper").load(function () {
+
     $('.flickr:gt(3)').hide().last().after(
       $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
         var a = this;
@@ -9,5 +10,6 @@
         }); return false;
       })
     );
+
   });
 </script>

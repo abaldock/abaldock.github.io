@@ -1,6 +1,6 @@
 
 <script>
-  $(document).ready(function () {
+  $(".wrapper").load(function () {
     $('.sc_wrapper:gt(4)').hide().last().after(
       $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
         var a = this;
@@ -10,4 +10,5 @@
       })
     );
   });
+
 </script>
