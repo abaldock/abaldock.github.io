@@ -1,0 +1,7 @@
+---
+title:  Lounging by the Water
+location: Oslo, Norway
+date:   2016-07-20 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/nY5gaW" title="F1000021"><img src="https://c6.staticflickr.com/4/3799/18990115533_70de29947d.jpg" width="500" height="337" alt="F1000021"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---

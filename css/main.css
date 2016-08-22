@@ -123,20 +123,21 @@ div #img_box{
   margin-bottom: 40px;
   margin-top:40px;
   border-radius:3px;
-  /*text-align:center;*/
+  text-align:center;
 
 }
 .post_title{
   margin:0;
 }
 .post_panel{
+
   width:95%;
   margin:0 auto;
   height:250px;
   background-color:white;
   list-style:none;
 
-  /*text-align:left !important;*/
+  text-align:left !important;
 
 
 }

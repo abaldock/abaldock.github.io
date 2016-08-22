@@ -1,0 +1,7 @@
+---
+title:  Glass House in the Park
+location: Vigelandsparken, Norway
+date:   2016-07-20 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/59177f" title="F1000034"><img src="https://c7.staticflickr.com/1/436/19584882966_43bca7f1fa.jpg" width="500" height="337" alt="F1000034"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---

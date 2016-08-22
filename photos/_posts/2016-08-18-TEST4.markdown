@@ -1,0 +1,7 @@
+---
+title:  Walking Home in the City
+location: Oslo, Norway
+date:   2016-07-20 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/W27c33" title="F1000005"><img src="https://c3.staticflickr.com/1/499/19423077090_10511b9317.jpg" width="500" height="337" alt="F1000005"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
