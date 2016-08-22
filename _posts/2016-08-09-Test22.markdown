@@ -3,7 +3,5 @@ layout: default
 title:  "Welcome to my website"
 date:   2016-07-20 00:12:25 -0400
 categories: style
-link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/Y5E1xr" title="Untitled"><img src="https://c2.staticflickr.com/8/7297/27874825345_b10dba900e_m.jpg" width="240" height="180" alt="Untitled"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-path: blog_img/test_img.jpg
 ---
 Here is what is to come.

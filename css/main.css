@@ -308,14 +308,23 @@ div #img_box{
 }
 
 
-#post_img{
-  display:inline-block;
-  padding:15px;
-  height:80%;
+.post_img{
+  width:296px;
+  height:200px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
 }
 .post_img_div{
-  height:100%;
   float:left;
+  overflow:hidden;
+  display:inline-block;
+  margin:15px;
 }
 .post_title{
   font-family:sintony_bold;
@@ -340,4 +349,14 @@ div #img_box{
   float:right;
   position:relative;
   left:-100px;
+}
+.post_img:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
 }
