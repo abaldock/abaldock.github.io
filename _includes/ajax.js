@@ -17,7 +17,7 @@ $("#style_link").click(function() {
     $(".wrapper").load("index.html .wrapper > *", function (){
 
       $('.post_panel:gt(2)').hide().last().after(
-        $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
+        $('<a class="show_more" id="style_a_link" />').attr('href','#').text('Show more').click(function(){
           var a = this;
           $('.post_panel:not(:visible):lt(5)').fadeIn(function(){
             if ($('.post_panel:not(:visible)').length == 0) $(a).remove();

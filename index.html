@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-<!-- {% include style_js.html %} -->
+{% include post_js.html %}
 <div id="blog_panel">
     {% for post in site.categories.style %}
       <div class="post_panel">
-        <h1 class="post_title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p class="author">
-          <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        </p>
+        <div class="post_img_div">
+          <img id="post_img" src="blog_img/test_img.jpg">
+        </div>
+        <div class="post_info">
+          <h1 class="post_title"><a href="#" id="post_js">{{ post.title }}</a></h1>
+          <span class="post_date">{{ post.date | date: '%B %d, %Y' }}</span>
+        </div>
       </div>
     {% endfor %}
     <!-- {% if paginator.total_pages > 1 %}
