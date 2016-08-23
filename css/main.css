@@ -130,16 +130,13 @@ div #img_box{
   margin:0;
 }
 .post_panel{
-
+  border-radius:5px;
   width:100%;
   margin:0 auto;
   height:250px;
   background-color:white;
   list-style:none;
-
   text-align:left !important;
-
-
 }
 .pagination{
   text-align:center;
@@ -328,6 +325,7 @@ div #img_box{
 }
 .post_title{
   font-family:sintony_bold;
+  font-size:30px;
 }
 
 .post_title a:link, .post_title a:active, .post_title a:visited{
@@ -340,6 +338,8 @@ div #img_box{
 }
 .post_date{
   font-family:sintony;
+  font-size:13px;
+
 }
 .post_info{
   width:50%;
@@ -359,4 +359,19 @@ div #img_box{
     -moz-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
+}
+
+.post_preview{
+  font-family:sintony;
+  line-height:20px;
+
+}
+#blog_hr{
+  width:100%;
+  position:relative;
+  top:6px;
+  border: 0;
+
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(77, 77, 77, 0.95), rgba(0, 0, 0, 0));
 }
