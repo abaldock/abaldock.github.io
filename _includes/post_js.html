@@ -1,8 +1,9 @@
 
 <script>
 
-    $("#post_js").click(function() {
-        $(".page-content").load("post.html .wrapper > *", function (){
-        }).hide().fadeIn(1000);
-    });
+  $(".post_link").click(function() {
+      console.log("hello")
+      $(".blog_panel").load("post.html .blog_panel > *", function (){
+      }).hide().fadeIn(1000);
+  });
 </script>

@@ -3,5 +3,5 @@ title:  Botanical Gardens No. 1
 location: Oslo, Norway
 date:   2016-07-20 00:12:25 -0400
 categories: photos
-link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/H7qH3A" title="R1-03891-0008"><img src="https://c7.staticflickr.com/1/376/20072714310_d7d044f78c.jpg" width="500" height="338" alt="R1-03891-0008"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/H7qH3A" title="R1-03891-0008"><img src="https://c7.staticflickr.com/1/376/20072714310_d7d044f78c.jpg" width="500" height="337" alt="R1-03891-0008"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---

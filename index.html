@@ -1,19 +1,20 @@
 ---
 layout: default
 ---
-{% include post_js.html %}
-<div id="blog_panel">
+
+<div class="blog_panel">
     {% for post in site.categories.style %}
       <div class="post_panel">
         <div class="post_img_div">
-          <a href="#"><img class="post_img" src="blog_img/test_img.jpg"></a>
+          <a href="#"><img class="post_img" src="blog_img/oslo_test.jpg"></a>
         </div>
         <div class="post_info">
-          <h1 class="post_title"><a href="#" id="post_js">{{ post.title }}</a></h1>
+
+          <h1 class="post_title" class>{{ post.title }}</h1>
           <span class="post_date"><i>{{ post.date | date: '%B %d, %Y' }}</i></span>
           <p class="post_preview">{{ post.preview }}</p>
+          <a class="post_link" onclick="update();" href="javascript:void(0);">Read More</a>
         </div>
-        <hr id="blog_hr">
       </div>
 
     {% endfor %}
