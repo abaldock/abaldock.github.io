@@ -1,14 +1,13 @@
-function update (){
-  $(".post_link").click(function() {
-      console.log("hello")
-      $(".blog_panel").load("post.html .blog_panel > *", function (){
-      }).hide().fadeIn(1000);
-  });
-};
+
 
 
 $(document).ready(function() {
-  console.log("check")
+
+  $(".post_link").click(function() {
+
+      $(".blog_panel").load("post.html .blog_panel > *", function (){
+      }).hide().fadeIn(1000);
+  });
 
   $("#music_link").click(function() {
       $(".wrapper").load("music.html .wrapper > *", function (){
@@ -25,7 +24,6 @@ $(document).ready(function() {
 
   $("#style_link").click(function() {
       $(".wrapper").load("index.html .wrapper > *", function (){
-
         $('.post_panel:gt(2)').hide().last().after(
           $('<a class="show_more" id="style_a_link" />').attr('href','#').text('Show more').click(function(){
             var a = this;
@@ -34,8 +32,17 @@ $(document).ready(function() {
             }); return false;
           })
         );
+
       }).hide().fadeIn(1000);
   });
+  $('.post_panel:gt(2)').hide().last().after(
+    $('<a class="show_more" id="style_a_link" />').attr('href','#').text('Show more').click(function(){
+      var a = this;
+      $('.post_panel:not(:visible):lt(5)').fadeIn(function(){
+        if ($('.post_panel:not(:visible)').length == 0) $(a).remove();
+      }); return false;
+    })
+  );
 
 
   $("#photo_link").click(function() {
