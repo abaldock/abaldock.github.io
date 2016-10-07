@@ -4,12 +4,15 @@
 $(document).ready(function() {
 
   $(".post_link").click(function() {
+    window.history.pushState({state:'new'},'', $(this).attr('href'));
 
       $(".blog_panel").load("post.html .blog_panel > *", function (){
       }).hide().fadeIn(1000);
   });
 
   $("#music_link").click(function() {
+      window.history.pushState({state:'new'},'', $(this).attr('href'));
+
       $(".wrapper").load("music.html .wrapper > *", function (){
         $('.sc_wrapper:gt(4)').hide().last().after(
           $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
@@ -23,6 +26,8 @@ $(document).ready(function() {
   });
 
   $("#style_link").click(function() {
+    window.history.pushState({state:'new'},'', $(this).attr('href'));
+
       $(".wrapper").load("index.html .wrapper > *", function (){
         $('.post_panel:gt(2)').hide().last().after(
           $('<a class="show_more" id="style_a_link" />').attr('href','#').text('Show more').click(function(){
@@ -46,6 +51,8 @@ $(document).ready(function() {
 
 
   $("#photo_link").click(function() {
+    window.history.pushState({state:'new'},'', $(this).attr('href'));
+
       $(".wrapper").load("photo.html .wrapper > *", function (){
         $('.flickr:gt(3)').hide().last().after(
           $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){

@@ -392,21 +392,14 @@ div #img_box{
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(77, 77, 77, 0.95), rgba(0, 0, 0, 0));
 }
 
-.post_link{
+.post_info p{
   font-family:sintony;
   color:white;
   text-decoration:none;
-  border-bottom: 1px solid #b3b3b3;
-  padding-bottom:5px;
   font-size:15px;
 
 }
 
-.post_link:hover{
-  border-color: white;
-  transition: all 0.2s ease 0s;
-
-}
 .post_landing{
   color:white;
   background-color:red;
