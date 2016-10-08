@@ -1,7 +1,0 @@
----
-layout: default
-title:  "Welcome to my website"
-date:   2016-07-20 00:12:25 -0400
-categories: style
----
-Here is what is to come.

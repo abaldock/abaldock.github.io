@@ -7,7 +7,28 @@ layout: default
       <div class="post_panel">
         <div class="post_img_div">
           <a href="#"><img class="post_img" src="blog_img/oslo_test.jpg"></a>
+          <div class="fit_info">
+            <ul id="fit_list">
+              {% if post.jacket %}
+                <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
+              {% endif %}
+              {% if post.sweater %}
+                <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
+              {% endif %}
+              {% if post.shirt %}
+                <li class="fit_item">Shirt&nbsp | &nbsp{{ post.shirt }}</li>
+              {% endif %}
+              {% if post.pants %}
+                <li class="fit_item">Pants&nbsp | &nbsp{{ post.pants }}</li>
+              {% endif %}
+              {% if post.shoes %}
+                <li class="fit_item">Shoes&nbsp | &nbsp{{ post.shoes }}</li>
+              {% endif %}
+
+          </div>
         </div>
+
+
         <div class="post_info">
 
           <h1 class="post_title">{{ post.title }}</h1>
