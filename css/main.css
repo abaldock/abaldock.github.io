@@ -350,16 +350,18 @@ div #img_box{
   font-size:14px;
   padding:0;
 
-
+}
+#fit_list li{
+  margin: 15px 0 0 0;
 }
 
 .fit_info{
-  background: rgba(225, 225, 225, .1);
+  background: rgba(0, 0, 0, .4);
   padding:5px 15px 5px 15px;
   display:inline-block;
   border-radius:2px;
   right:0;
-  top:409px;
+  top:348px;
   opacity:0;
   position:absolute;
   -webkit-transition: all .4s ease-in-out;
