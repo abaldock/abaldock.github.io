@@ -11,7 +11,7 @@ layout: default
         <p>{{ post.tag }} &nbsp; | &nbsp;<i>{{ post.date | date: '%B %d, %Y' }}</i></p>
       </div>
       <div class="soundcloud">
-        <div class="sc_song_wrapper">{{ post.link }}</div>
+        <div class="sc_song_wrapper" id="{{ post.track }}"></div>
       </div>
       <hr id="music_hr">
     </div>

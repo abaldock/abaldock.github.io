@@ -2,7 +2,25 @@
 
 
 $(document).ready(function() {
-
+  $(".flickr_wrapper iframe").each(function(index) {
+        var ratio = $(this).height() / $(this).width();
+        var origHeight = $(this).height();
+        var origWidth  = $(this).width();
+        var self = this;
+        // bind to window with closure that references the
+        // iframe since the iframe doesn't get resize events
+        // until (you know) we resize it.
+        $(window).resize(function() {
+            if($(self).parent().width() > origWidth) {
+                $(self).width(origWidth);
+                $(self).height(origHeight);
+            } else {
+                $(self).width($(self).parent().width());
+                $(self).height($(self).parent().width() * ratio);
+            }
+        });
+    });
+    $(window).resize();
   $('.sc_wrapper:gt(4)').hide().last().after(
           $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
             var a = this;
@@ -69,57 +87,35 @@ $(document).ready(function() {
       $("#nav_list a").fadeTo('fast', 1.0);
       setCurrentPage(e.state ? e.state.url : null);
   };
-  // $("#music_link").click(function() {
-  //
-  //     $(".wrapper").load("music.html .wrapper > *", function (){
-  //       $('.sc_wrapper:gt(4)').hide().last().after(
-  //         $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
-  //           var a = this;
-  //           $('.sc_wrapper:not(:visible):lt(5)').fadeIn(function(){
-  //             if ($('.sc_wrapper:not(:visible)').length == 0) $(a).remove();
-  //           }); return false;
-  //         })
-  //       );
-  //     }).hide().fadeIn(1000);
-  // });
-  //
-  // $("#style_link").click(function() {
-  //
-  //     $(".wrapper").load("index.html .wrapper > *", function (){
-  //       $('.post_panel:gt(2)').hide().last().after(
-  //         $('<a class="show_more" id="style_a_link" />').attr('href','#').text('Show more').click(function(){
-  //           var a = this;
-  //           $('.post_panel:not(:visible):lt(5)').fadeIn(function(){
-  //             if ($('.post_panel:not(:visible)').length == 0) $(a).remove();
-  //           }); return false;
-  //         })
-  //       );
-  //
-  //     }).hide().fadeIn(1000);
-  // });
-  // $('.post_panel:gt(2)').hide().last().after(
-  //   $('<a class="show_more" id="style_a_link" />').attr('href','#').text('Show more').click(function(){
-  //     var a = this;
-  //     $('.post_panel:not(:visible):lt(5)').fadeIn(function(){
-  //       if ($('.post_panel:not(:visible)').length == 0) $(a).remove();
-  //     }); return false;
-  //   })
-  // );
-  //
-  //
-  // $("#photo_link").click(function() {
-  //
-  //     $(".wrapper").load("photo.html .wrapper > *", function (){
-  //       $('.flickr:gt(3)').hide().last().after(
-  //         $('<a class="show_more" />').attr('href','#').text('Show more').click(function(){
-  //           var a = this;
-  //           $('.flickr:not(:visible):lt(5)').fadeIn(function(){
-  //             if ($('.flickr:not(:visible)').length == 0) $(a).remove();
-  //           }); return false;
-  //         })
-  //       );
-  //     }).hide().fadeIn(1000);
-  // });
-  //
+  function isScrolledIntoView(elem){
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(elem).offset().top;
+
+    var elemBottom = elemTop + $(elem).height();
+    console.log((((elemBottom <= docViewBottom) && (elemTop >= docViewTop))));
+    return (((elemBottom <= docViewBottom) && (elemTop >= docViewTop)));
+  }
+  $( window ).scroll(function() {
+    {% for post in site.categories.music %}
+
+      var isViewable = function(){
+          console.log(isScrolledIntoView('#{{ post.track }}'));
+          if((isScrolledIntoView('#{{ post.track }}')) == true)
+            // console.log("hello");
+            // console.log(".sc_song_wrapper");
+            if($('#{{ post.track }}').is(':empty')){
+
+
+              document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
+            }
+
+      }
+
+      // console.log("hello");
+      isViewable();
+
+    {% endfor %}
+  })
 
 });
