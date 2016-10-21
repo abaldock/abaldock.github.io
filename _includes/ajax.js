@@ -91,7 +91,10 @@ $(document).ready(function() {
     var docViewTop = $(window).scrollTop();
     var docViewBottom = docViewTop + $(window).height();
     var elemTop = $(elem).offset().top;
-
+    console.log(elem);
+    console.log(elemTop);
+    console.log(docViewTop);
+    
     var elemBottom = elemTop + $(elem).height();
     console.log((((elemBottom <= docViewBottom) && (elemTop >= docViewTop))));
     return (((elemBottom <= docViewBottom) && (elemTop >= docViewTop)));
@@ -100,22 +103,26 @@ $(document).ready(function() {
     {% for post in site.categories.music %}
 
       var isViewable = function(){
-          console.log(isScrolledIntoView('#{{ post.track }}'));
           if((isScrolledIntoView('#{{ post.track }}')) == true)
-            // console.log("hello");
-            // console.log(".sc_song_wrapper");
             if($('#{{ post.track }}').is(':empty')){
-
-
               document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
             }
-
       }
 
-      // console.log("hello");
       isViewable();
 
     {% endfor %}
   })
+  {% for post in site.categories.music %}
 
+    var isViewable = function(){
+        if((isScrolledIntoView('#{{ post.track }}')) == true)
+          if($('#{{ post.track }}').is(':empty')){
+            document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
+          }
+    }
+
+    isViewable();
+
+  {% endfor %}
 });
