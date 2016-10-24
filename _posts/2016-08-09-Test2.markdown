@@ -10,4 +10,4 @@ shoes: Wolverine
 bag: Fjallraven
 link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/9z7r86" title="DSC_3043"><img src="https://c7.staticflickr.com/9/8582/30493698806_2827c5bcd1_c.jpg" width="800" height="530" alt="DSC_3043"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---
-I'll be posting my favorite fits, photos, and soundcloud beats on a frequent basis, so check in often.
+I'll be posting my favorite fits, photos, and beats on a frequent basis, so check in often.
