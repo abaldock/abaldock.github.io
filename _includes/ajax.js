@@ -87,42 +87,42 @@ $(document).ready(function() {
       $("#nav_list a").fadeTo('fast', 1.0);
       setCurrentPage(e.state ? e.state.url : null);
   };
-  function isScrolledIntoView(elem){
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-    var elemTop = $(elem).offset().top;
-    console.log(elem);
-    console.log(elemTop);
-    console.log(docViewTop);
-    
-    var elemBottom = elemTop + $(elem).height();
-    console.log((((elemBottom <= docViewBottom) && (elemTop >= docViewTop))));
-    return (((elemBottom <= docViewBottom) && (elemTop >= docViewTop)));
-  }
-  $( window ).scroll(function() {
-    {% for post in site.categories.music %}
-
-      var isViewable = function(){
-          if((isScrolledIntoView('#{{ post.track }}')) == true)
-            if($('#{{ post.track }}').is(':empty')){
-              document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
-            }
-      }
-
-      isViewable();
-
-    {% endfor %}
-  })
-  {% for post in site.categories.music %}
-
-    var isViewable = function(){
-        if((isScrolledIntoView('#{{ post.track }}')) == true)
-          if($('#{{ post.track }}').is(':empty')){
-            document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
-          }
-    }
-
-    isViewable();
-
-  {% endfor %}
+  // function isScrolledIntoView(elem){
+  //   var docViewTop = $(window).scrollTop();
+  //   var docViewBottom = docViewTop + $(window).height();
+  //   var elemTop = $(elem).offset().top;
+  //   console.log(elem);
+  //   console.log(elemTop);
+  //   console.log(docViewTop);
+  //   jek
+  //   var elemBottom = elemTop + $(elem).height();
+  //   console.log((((elemBottom <= docViewBottom) && (elemTop >= docViewTop))));
+  //   return (((elemBottom <= docViewBottom) && (elemTop >= docViewTop)));
+  // }
+  // $( window ).scroll(function() {
+  //   {% for post in site.categories.music %}
+  //
+  //     var isViewable = function(){
+  //         if((isScrolledIntoView('#{{ post.track }}')) == true)
+  //           if($('#{{ post.track }}').is(':empty')){
+  //             document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
+  //           }
+  //     }
+  //
+  //     isViewable();
+  //
+  //   {% endfor %}
+  // })
+  // {% for post in site.categories.music %}
+  //
+  //   var isViewable = function(){
+  //       if((isScrolledIntoView('#{{ post.track }}')) == true)
+  //         if($('#{{ post.track }}').is(':empty')){
+  //           document.getElementById('{{ post.track }}').innerHTML= '{{ post.link }}';
+  //         }
+  //   }
+  //
+  //   isViewable();
+  //
+  // {% endfor %}
 });
