@@ -5,8 +5,14 @@ layout: default
 <div class="blog_panel">
     {% for post in site.categories.style %}
       <div class="post_panel">
+        <div class="post_info">
+
+          <h1 class="post_title">{{ post.title }}</h1>
+          <span class="post_date"><i>{{ post.date | date: '%B %d, %Y' }}</i></span>
+          <p class="post_content">{{ post.content }}</p>
+        </div>
         <div class="post_img_div">
-          <a href="#"><img class="post_img" src="blog_img/oslo_test.jpg"></a>
+          <div class="blog_post_img">{{ post.link }}</div>
           <div class="fit_info">
             <ul id="fit_list">
               {% if post.jacket %}
@@ -24,17 +30,15 @@ layout: default
               {% if post.shoes %}
                 <li class="fit_item">Shoes&nbsp | &nbsp{{ post.shoes }}</li>
               {% endif %}
+              {% if post.bag %}
+                <li class="fit_item">Bag&nbsp | &nbsp{{ post.bag }}</li>
+              {% endif %}
 
           </div>
         </div>
 
 
-        <div class="post_info">
 
-          <h1 class="post_title">{{ post.title }}</h1>
-          <span class="post_date"><i>{{ post.date | date: '%B %d, %Y' }}</i></span>
-          <p class="post_content">{{ post.content }}</p>
-        </div>
       </div>
 
     {% endfor %}

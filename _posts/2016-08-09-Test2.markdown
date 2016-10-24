@@ -1,12 +1,13 @@
 ---
 layout: default
-title:  "Welcome to my website"
-date:   2016-07-20 00:12:25 -0400
+title:  "Welcome"
+date:   2016-10-24 00:12:25 -0400
 categories: style
-jacket: Sauce Zhan
-sweater: J Crew
-shirt: Steven Alan
-pants: APC
-shoes: Converse
+jacket: Apolis
+sweater: Steven Alan
+pants: Oni
+shoes: Wolverine
+bag: Fjallraven
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/9z7r86" title="DSC_3043"><img src="https://c7.staticflickr.com/9/8582/30493698806_2827c5bcd1_c.jpg" width="800" height="530" alt="DSC_3043"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---
-Here is what is to come.
+I'll be posting my favorite fits, photos, and soundcloud beats on a frequent basis, so check in often.
