@@ -325,6 +325,8 @@ div #img_box{
   width:70%;
   min-width:800px;
   max-width:800px;
+  min-height:530px;
+  max-height:530px;
   height:70%;
   position:relative;
   padding:1px 1px 1px 1px;
