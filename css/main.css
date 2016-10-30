@@ -323,6 +323,8 @@ div #img_box{
 }
 .post_img_div{
   width:70%;
+  min-width:800px;
+  max-width:800px;
   height:70%;
   position:relative;
   padding:1px 1px 1px 1px;
