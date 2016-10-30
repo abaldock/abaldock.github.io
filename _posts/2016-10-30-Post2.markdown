@@ -1,0 +1,12 @@
+---
+layout: default
+title:  "Fall Sundays"
+date:   2016-10-30 00:12:25 -0400
+categories: style
+shirt: Faherty
+pants: Levi's Vintage
+shoes: Converse
+bag: Fjallraven
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/8soqLH" title="DSC_3070"><img src="https://c5.staticflickr.com/6/5341/30370401100_a9beee1671_c.jpg" width="800" height="530" alt="DSC_3070"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
+ft. historic Providence carriage houses
