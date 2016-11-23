@@ -11,31 +11,87 @@ layout: default
           <span class="post_date"><i>{{ post.date | date: '%B %d, %Y' }}</i></span>
           <p class="post_content">{{ post.content }}</p>
         </div>
-        <div class="post_img_div">
-          <div class="blog_post_img">{{ post.link }}</div>
-          <div class="fit_info">
-            <ul id="fit_list">
-              {% if post.jacket %}
-                <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
-              {% endif %}
-              {% if post.sweater %}
-                <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
-              {% endif %}
-              {% if post.shirt %}
-                <li class="fit_item">Shirt&nbsp | &nbsp{{ post.shirt }}</li>
-              {% endif %}
-              {% if post.pants %}
-                <li class="fit_item">Pants&nbsp | &nbsp{{ post.pants }}</li>
-              {% endif %}
-              {% if post.shoes %}
-                <li class="fit_item">Shoes&nbsp | &nbsp{{ post.shoes }}</li>
-              {% endif %}
-              {% if post.bag %}
-                <li class="fit_item">Bag&nbsp | &nbsp{{ post.bag }}</li>
-              {% endif %}
+        {% if post.link2 %}
+          <div class="post_img_div1">
+            <div class="blog_post_img">{{ post.link }}</div>
+            <div class="fit_info">
+              <ul id="fit_list">
+                {% if post.jacket %}
+                  <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
+                {% endif %}
+                {% if post.sweater %}
+                  <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
+                {% endif %}
+                {% if post.shirt %}
+                  <li class="fit_item">Shirt&nbsp | &nbsp{{ post.shirt }}</li>
+                {% endif %}
+                {% if post.pants %}
+                  <li class="fit_item">Pants&nbsp | &nbsp{{ post.pants }}</li>
+                {% endif %}
+                {% if post.shoes %}
+                  <li class="fit_item">Shoes&nbsp | &nbsp{{ post.shoes }}</li>
+                {% endif %}
+                {% if post.bag %}
+                  <li class="fit_item">Bag&nbsp | &nbsp{{ post.bag }}</li>
+                {% endif %}
 
+            </div>
           </div>
+
+
+          <div class="post_img_div2">
+            <div class="blog_post_img">{{ post.link2 }}</div>
+            <div class="fit_info">
+              <ul id="fit_list">
+                {% if post.jacket %}
+                  <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
+                {% endif %}
+                {% if post.sweater %}
+                  <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
+                {% endif %}
+                {% if post.shirt %}
+                  <li class="fit_item">Shirt&nbsp | &nbsp{{ post.shirt }}</li>
+                {% endif %}
+                {% if post.pants %}
+                  <li class="fit_item">Pants&nbsp | &nbsp{{ post.pants }}</li>
+                {% endif %}
+                {% if post.shoes %}
+                  <li class="fit_item">Shoes&nbsp | &nbsp{{ post.shoes }}</li>
+                {% endif %}
+                {% if post.bag %}
+                  <li class="fit_item">Bag&nbsp | &nbsp{{ post.bag }}</li>
+                {% endif %}
+
+            </div>
+          </div>
+
+      {% else %}
+      <div class="post_img_div2">
+        <div class="blog_post_img">{{ post.link }}</div>
+        <div class="fit_info">
+          <ul id="fit_list">
+            {% if post.jacket %}
+              <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
+            {% endif %}
+            {% if post.sweater %}
+              <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
+            {% endif %}
+            {% if post.shirt %}
+              <li class="fit_item">Shirt&nbsp | &nbsp{{ post.shirt }}</li>
+            {% endif %}
+            {% if post.pants %}
+              <li class="fit_item">Pants&nbsp | &nbsp{{ post.pants }}</li>
+            {% endif %}
+            {% if post.shoes %}
+              <li class="fit_item">Shoes&nbsp | &nbsp{{ post.shoes }}</li>
+            {% endif %}
+            {% if post.bag %}
+              <li class="fit_item">Bag&nbsp | &nbsp{{ post.bag }}</li>
+            {% endif %}
+
         </div>
+      </div>
+      {% endif %}
 
 
 
