@@ -360,7 +360,7 @@ div #img_box{
 
 }
 
-.post_img_div:hover .fit_info{
+.post_img_div2:hover .fit_info, .post_img_div1:hover .fit_info{
   opacity:1;
 }
 

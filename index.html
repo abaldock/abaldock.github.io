@@ -19,6 +19,9 @@ layout: default
                 {% if post.jacket %}
                   <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
                 {% endif %}
+                {% if post.jacket2 %}
+                  <li class="fit_item">Jacket 2&nbsp | &nbsp{{ post.jacket2 }}</li>
+                {% endif %}
                 {% if post.sweater %}
                   <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
                 {% endif %}
@@ -37,14 +40,15 @@ layout: default
 
             </div>
           </div>
-
-
           <div class="post_img_div2">
             <div class="blog_post_img">{{ post.link2 }}</div>
             <div class="fit_info">
               <ul id="fit_list">
                 {% if post.jacket %}
                   <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
+                {% endif %}
+                {% if post.jacket2 %}
+                  <li class="fit_item">Jacket 2&nbsp | &nbsp{{ post.jacket2 }}</li>
                 {% endif %}
                 {% if post.sweater %}
                   <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>
@@ -72,6 +76,9 @@ layout: default
           <ul id="fit_list">
             {% if post.jacket %}
               <li class="fit_item">Jacket&nbsp | &nbsp{{ post.jacket }}</li>
+            {% endif %}
+            {% if post.jacket2 %}
+              <li class="fit_item">Jacket 2&nbsp | &nbsp{{ post.jacket2 }}</li>
             {% endif %}
             {% if post.sweater %}
               <li class="fit_item">Sweater&nbsp | &nbsp{{ post.sweater }}</li>

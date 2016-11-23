@@ -1,0 +1,14 @@
+---
+layout: default
+title:  Home for Thanksgiving
+date:   2016-11-23 00:12:25 -0400
+categories: style
+jacket: APC
+jacket2: Bellerose
+shirt: Faherty
+pants: APC
+shoes: Story et Fall
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/132974595@N06/30395451333/in/album-72157672070711483/" title="DSC_3143"><img src="https://c6.staticflickr.com/6/5686/30395451333_4a9d3e9991_c.jpg" width="800" height="533" alt="DSC_3143"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+link2: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/132974595@N06/31202582195/in/album-72157672070711483/" title="DSC_3164"><img src="https://c4.staticflickr.com/6/5550/31202582195_fa682040e1_c.jpg" width="800" height="530" alt="DSC_3164"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
+@LayeringSeason
