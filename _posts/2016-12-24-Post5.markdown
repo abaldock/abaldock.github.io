@@ -1,0 +1,14 @@
+---
+layout: default
+title:  Last Month's Project
+date:   2016-12-24 00:12:25 -0400
+categories: style
+jacket: Levi's Vintage
+sweater: Reigning Champ
+shirt: JCrew
+pants: Kith NYC
+shoes: Converse
+link2: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/25227X" title="DSC_3200"><img src="https://c6.staticflickr.com/1/353/31849944365_287c76a216_c.jpg" width="800" height="530" alt="DSC_3200"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/68598E" title="DSC_3171"><img src="https://c5.staticflickr.com/1/710/31477238060_a8ff86d418_c.jpg" width="800" height="530" alt="DSC_3171"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
+Street Aesthetic ft. hand painted iconic Milton Glaser poster of Bob Dylan on a vintage flannel-lined Levi's trucker.
