@@ -1,0 +1,11 @@
+---
+layout: default
+title:  The Varsity Jacket
+date:   2017-01-04 00:12:25 -0400
+categories: style
+jacket: Dehen 1920 x Self Edge
+pants: Rag and Bone
+shoes: Kent Wang
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/X09a31" title="DSC_3201"><img src="https://c7.staticflickr.com/1/356/31959692462_285548ff84_c.jpg" width="800" height="528" alt="DSC_3201"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
+Timeless `|` Grail
