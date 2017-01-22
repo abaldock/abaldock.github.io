@@ -1,0 +1,7 @@
+---
+title:  Dad Portrait 1
+location: Havana, Cuba
+date:   2017-01-22 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/Psk752" title="aab014"><img src="https://c1.staticflickr.com/1/612/32247052495_d5490fcc75.jpg" width="500" height="500" alt="aab014"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---

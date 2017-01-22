@@ -3,5 +3,5 @@ title:  The Opera House
 location: Oslo, Norway
 date:   2016-07-20 00:12:25 -0400
 categories: photos
-link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/wqTx3K" title="R1-03891-0023"><img src="https://c3.staticflickr.com/1/321/20072721370_2155a6d5dc.jpg" width="500" height="337" alt="R1-03891-0023"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/q0178j" title="R1-03891-0023"><img src="https://c1.staticflickr.com/1/321/20072721370_2155a6d5dc_b.jpg" width="1024" height="692" alt="R1-03891-0023"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 ---

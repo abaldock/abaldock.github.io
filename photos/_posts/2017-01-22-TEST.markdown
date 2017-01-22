@@ -1,0 +1,7 @@
+---
+title: Jose Fuster's Entryway 
+location: Fusterlandia, Cuba
+date:   2017-01-22 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/P7RV26" title="aab012"><img src="https://c1.staticflickr.com/1/318/32247053005_83a2973088.jpg" width="495" height="500" alt="aab012"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
