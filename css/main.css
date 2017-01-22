@@ -231,7 +231,7 @@ div #img_box{
   padding:10px;
   font-family: sintony;
   border-radius:3px;
-  display:inline-block;
+  display:block;
   margin-top:15px !important;
   margin-bottom:23px !important;
   background-color:white;
