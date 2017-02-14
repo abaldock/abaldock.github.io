@@ -1,0 +1,7 @@
+---
+title:  Bicitaxis on Break
+location: Havana, Cuba
+date:   2017-02-14 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/L7e3YG" title="aab027"><img src="https://c1.staticflickr.com/1/624/31912589290_6bbc46b676.jpg" width="491" height="500" alt="aab027"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---

@@ -1,0 +1,7 @@
+---
+title:  Current Events
+location: Greenwich, Connecticut
+date:   2017-02-14 00:12:25 -0400
+categories: photos
+link: <a data-flickr-embed="true"  href="https://www.flickr.com/gp/132974595@N06/Mm4Z81" title="Scan_ 13"><img src="https://c1.staticflickr.com/3/2607/32821105776_c62d0b64dc_b.jpg" width="1024" height="732" alt="Scan_ 13"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+---
